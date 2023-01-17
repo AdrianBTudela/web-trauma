@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/adrianbtudela/web-trauma.git/static/css/main.900d008b.css",
+    "main.js": "/adrianbtudela/web-trauma.git/static/js/main.1703c890.js",
+    "static/js/787.93c83cab.chunk.js": "/adrianbtudela/web-trauma.git/static/js/787.93c83cab.chunk.js",
+    "static/media/LogoNav.png": "/adrianbtudela/web-trauma.git/static/media/LogoNav.93c9efd33b052edbee4c.png",
+    "index.html": "/adrianbtudela/web-trauma.git/index.html",
+    "main.900d008b.css.map": "/adrianbtudela/web-trauma.git/static/css/main.900d008b.css.map",
+    "main.1703c890.js.map": "/adrianbtudela/web-trauma.git/static/js/main.1703c890.js.map",
+    "787.93c83cab.chunk.js.map": "/adrianbtudela/web-trauma.git/static/js/787.93c83cab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.900d008b.css",
+    "static/js/main.1703c890.js"
+  ]
+}
