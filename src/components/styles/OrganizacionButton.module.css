@@ -1,0 +1,34 @@
+
+.wrap {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: center;
+    margin: 2%;
+  }
+  
+.button {
+    width: 140px;
+    height: 45px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    border: 3px solid #04437b;
+    border-color: #04437b;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+.button:hover {
+    background-color: #04437b;
+    box-shadow: 0px 15px 20px #04437b;
+    color: #fff;
+    transform: translateY(-7px);
+  }
+

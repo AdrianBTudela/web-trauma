@@ -1,0 +1,144 @@
+.orden{
+    z-index: -2;
+    display: flex;
+    flex-direction: column;
+    /* background-color: gray; */
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    /* background-color: green;  */
+    margin: 2%;
+    margin-top: 5%;
+}
+
+.svg{
+    /* background-color: yellow; */
+    display: flex;
+    margin-left: 40%;
+}
+
+.texto{
+    /* background-color: aquamarine; */
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    z-index: -2;
+    margin-right: 15%;
+}
+
+.entrada{
+    /* background-color: beige;  */
+}
+
+@media(max-width: 868px){
+
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 40% auto;
+        margin: 2%;
+        margin-top: 5%;
+    }
+
+    .svg{
+        display: flex;
+        margin-left: 0%;
+    }
+
+    .texto{
+        display: flex;
+        margin-right: 0%;
+        font-size: 70%;
+        /* background-color: azure; */
+        
+    }
+
+
+    .texto ul{
+        list-style: none;
+    }
+
+    .user{
+        width: 70%;
+        height: 70%;
+    }
+
+    .service{
+        width: 60%;
+        height: 60%;
+    }
+
+    .valor{
+        width: 60%;
+        height: 60%;
+    }
+
+    .vision{
+        width: 60%;
+        height: 60%;
+    }
+    
+}
+
+.ul{
+    text-align: center;
+    text-decoration: none;
+}
+
+.ul li{
+    text-decoration: none;
+}
+
+.user{
+    fill:none;
+    stroke: #04437b;
+    stroke-dasharray: 700px;
+    stroke-dashoffset: 700px;
+    animation: 10s ease-in forwards like;
+    margin: auto;
+
+}
+
+.service{
+    fill:none;
+    stroke: #04437b;
+    stroke-dasharray: 700px;
+    stroke-dashoffset: 700px;
+    animation: 10s ease-in forwards like;
+    margin: auto;
+
+}
+
+.valor{
+    fill:none;
+    stroke: #04437b;
+    stroke-dasharray: 700px;
+    stroke-dashoffset: 700px;
+    animation: 10s ease-in forwards like;
+    margin: auto;
+
+}
+
+.vision{
+    fill:none;
+    stroke: #04437b;
+    stroke-dasharray: 700px;
+    stroke-dashoffset: 700px;
+    animation: 10s ease-in forwards like;
+    margin: auto;
+
+}
+
+@keyframes like {
+    0%{
+        stroke-dashoffset: 700px;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+
+
